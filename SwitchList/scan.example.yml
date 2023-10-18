@@ -1,0 +1,24 @@
+scan:
+  # Each top entry denotes a new excel sheet
+  CN1: 
+    # Each sub entry represents a group of addresses or subnets within a sheet
+    CORE NODE 1:
+    - 192.168.0.0/28
+  REST:
+    CORE NODE 2:
+    - 192.168.255.10-192.168.255.20
+    OTHER EXAMPLE NETWORK:
+    - 192.168.255.1
+    - 192.168.255.25
+
+reserved: 
+  192.168.0.5:
+    Hostname: EXAMPLE-SERVER-001
+    Subnet Mask: 255.255.255.0
+    Make: Dell
+    Model: 
+    - R710
+    Serial: 
+    - 'ABC123456Z'
+    Firmware: 1.0.1
+    FIPS Mode: 'N/A'
